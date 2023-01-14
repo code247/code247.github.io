@@ -48,11 +48,9 @@ timezone: America/New-York # Timezone for blog posts and alike
 # 5. Collections
 collections:
   posts:
-    title: Posts # Needed for Siteleaf
+    title: Blog # Needed for Siteleaf
     output: true
-    description: "My thoughts and ideas" # The post list page content
-    feature_text: |
-      Welcome to the blog
+    description: "An archive of thoughts and experiences" # The post list page content
     feature_image: "https://picsum.photos/2560/600?image=866"
 
 # 6. Jekyll collections settings
@@ -80,7 +78,7 @@ encoding: utf-8 # Make sure the encoding is right
 lang: en-US # Set the site language
 title: "Sagar Manohar" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
-description: "Personal website of Sagar Manohar" # Site description and default description, also used in jekyll-seo-tag
+description: "" # Site description and default description, also used in jekyll-seo-tag
 url: "https://code247.github.io" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: "https://github.com/code247/code247.github.io"
@@ -105,13 +103,14 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 navigation_header:
 - title: Home
   url: /
-- title: Substack
-  url: "https://sagarerr.substack.com"
 - title: Blog
   url: /blog/
 - title: Categories
   url: /categories/
+- title: Substack
+  url: "https://sagarerr.substack.com"
 - title: Search
+  logo: "/assets/logos/search.svg"
   url: /search/
 
 navigation_footer:

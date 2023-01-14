@@ -1,10 +1,10 @@
 // Background colours
-$backgroundColour:#1a1a1a;
+$backgroundColour:#fff;
 $codeBackgroundColour:#323232;
 $featureBackgroundColour:#000000;
 $accentColour:#a5bdff;
-$headingColour:#ffffff;
-$bodyColour:#d2d2d2;
+$headingColour:#242e2b;
+$bodyColour:#000;
 $linkColour:#5380ff;
 $hoverColour:#a5bdff;
 $focusColour:#fa407b;
@@ -21,7 +21,7 @@ $bodytype: (
 );
 
 $headingtype: (
-  font-family: '"Merriweather", serif',
+  font-family: '"Georgia", monospace',
   regular: 400,
   bold: 700,
   cap-height: 0.75

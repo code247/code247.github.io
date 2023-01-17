@@ -23,3 +23,21 @@ layout: default
 </main>
 
 {% include site-footer.html %}
+
+<script>
+  (function() {
+    const headings = document.querySelectorAll('h3[id]');
+    const linkContent = '#';
+    for (const heading of headings) {
+        const anchorText = document.createElement('a');
+        anchorText.setAttribute('href', `#${heading.id}`);
+        anchorText.innerHTML = heading.innerHTML;
+        heading.replaceChild(anchorText, heading.firstChild);
+        
+        const linkIcon = document.createElement('span');
+        linkIcon.classList.add('heading-link-icon');
+        linkIcon.innerHTML = linkContent;
+        heading.appendChild(linkIcon);
+    }
+  })();
+</script>

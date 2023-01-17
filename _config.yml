@@ -78,7 +78,7 @@ encoding: utf-8 # Make sure the encoding is right
 lang: en-US # Set the site language
 title: "Sagar Manohar" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
-description: "" # Site description and default description, also used in jekyll-seo-tag
+description: "Personal blog of Sagar Manohar" # Site description and default description, also used in jekyll-seo-tag
 url: "https://code247.github.io" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: "https://github.com/code247/code247.github.io"

@@ -213,6 +213,28 @@ a .icon {
   }
 }
 
+.heading-link-icon {
+  position: absolute;
+  color: $captionColour;
+  padding: 0.4em;
+  font-size: 0.75em;
+  margin-top: -0.35em;
+  display: none;
+}
+
+h3 {
+  > a {
+    color: inherit;
+    &:active,
+    &:focus,
+    &:hover {
+      + .heading-link-icon {
+        display: inline-block;
+      }
+    }
+  }
+}
+
 .icon {
   vertical-align: middle;
   width: 1.1em;

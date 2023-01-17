@@ -20,6 +20,7 @@ body {
 .footer {
   .nav {
     text-align: right;
+    font-size: 0.8rem;
   }
   .logo {
     @include flex(0 0 auto);

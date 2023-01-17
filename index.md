@@ -12,3 +12,5 @@ Welcome to my small home on the *interwebs*!
 - 🎾 I follow and play tennis with great interest.
 - My go-to jams are Indian Classical Music and a variety of podcasts.
 - Best way to contact me is via email at [firstname][lastname]24[at]gmail.com
+
+This mini-blog is a static site built using Jekyll. [[source](https://github.com/code247/code247.github.io)]

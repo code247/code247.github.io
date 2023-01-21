@@ -1,5 +1,6 @@
 ---
 title: Software Engineer Interview Guide
+description: A prep guide for Software Engineers appearing for technical interviews
 categories:
 - Tech
 feature_image: "/assets/images/job_search.jpg"

@@ -1,5 +1,5 @@
 
-Source for personal website / blog, maintained to keep track of any musings.
+Source for personal website / blog.
 
 ## Reuse template? Try below steps:
 

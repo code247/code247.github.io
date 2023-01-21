@@ -1,5 +1,6 @@
 ---
 title: Using APScheduler for cron jobs on Heroku
+description: A tutorial to schedule cron jobs on Heroku
 categories:
 - Tech
 feature_image: "/assets/images/cron.png"

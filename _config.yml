@@ -50,7 +50,7 @@ collections:
   posts:
     title: Blog # Needed for Siteleaf
     output: true
-    description: "An archive of thoughts and experiences" # The post list page content
+    description: "An archive of experiences, ideas and thoughts!" # The post list page content
     feature_image: "https://picsum.photos/2560/600?image=866"
 
 # 6. Jekyll collections settings
